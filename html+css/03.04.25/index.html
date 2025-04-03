@@ -7,6 +7,39 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
+    <form action="">
+      <h1>Contact form</h1>
+      Please fill in your information and we'll be sending your order.
+      <div class="line">
+        <div class="title">Your name</div>
+        <input type="text" name="" id="" class="field" />
+        <input type="text" name="" id="" class="field" />
+      </div>
+      <div class="line">
+        <div class="title">Your email</div>
+        <input type="text" name="" id="" class="field" />
+      </div>
+      <div class="line">
+        <div class="title">Phone*</div>
+        <input type="tel" name="" id="" class="field" />
+        <input type="tel" name="" id="" class="field" />
+        <input type="tel" name="" id="" class="field" />
+      </div>
+      <div class="line">
+        <div class="title">Message subject*</div>
+        <input list="Message subject" class="field" />
+        <datalist id="Message subject">
+          <option value="Other"></option>
+        </datalist>
+      </div>
+      <div class="line">
+        <div class="title">Message*</div>
+        <textarea name="" id="" class="field"></textarea>
+      </div>
+      <hr />
+      <div class="line">
+        <input type="submit" value="SUBMIT FORM" class="field col" />
+      </div>
+    </form>
   </body>
 </html>
