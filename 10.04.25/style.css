@@ -53,6 +53,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  display: flex;
 }
 
 .cards {
@@ -68,6 +69,7 @@
   margin-left: 100px;
   margin-top: 170px;
   background-color: white;
+  padding: 30px;
 }
 
 .box1 {
