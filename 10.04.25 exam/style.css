@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 100vw;
+  padding: 10px;
+}
+
+.logo {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header-top {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.title {
+  padding: 5px;
+  margin-bottom: 1px;
+  font-size: 15px;
+}
+
+.header-bottom {
+  justify-content: center;
+  display: flex;
+}
+
+.description {
+  width: 100vw;
+  height: 60px;
+  justify-content: center;
+  display: flex;
+  background-color: black;
+}
+
+.box {
+  color: white;
+  font-size: 20px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.container2 {
+  height: 100vh;
+  background-image: url("https://i.pinimg.com/736x/57/22/db/5722dbaed43e34aeec0d2ee69da7d7de.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+}
+
+.cards {
+  display: flex;
+  width: 450px;
+  height: 400px;
+  justify-content: space-around;
+}
+
+.card {
+  width: 1000px;
+  height: 400px;
+  margin-left: 100px;
+  margin-top: 170px;
+  background-color: white;
+  padding: 30px;
+}
+
+.box1 {
+  font-size: 15px;
+  line-height: 30px;
+}
+
+.box2 {
+  font-size: 20px;
+  background-color: aqua;
+  border-radius: 20%;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+form {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  margin-left: 100px;
+  margin-top: 170px;
+}
